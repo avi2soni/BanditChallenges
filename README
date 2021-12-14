@@ -1,0 +1,25 @@
+wechall name: asoni10
+
+Level 0 had a readme file so I used the "cat readme" command and got the password "boJ9jbbUNNfktd78OOpsqOltutMc3MY1" for level 1
+
+Level 1 had the password in a file named "-" so I used the "cat ./-" command and got the password "CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9" for level 2
+
+Level 2 had the password in a file named "spaces in this filename" so I used the "cat ./spaces\ in\ this\ filename" command and got the password "UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK" for level 2
+
+Level 3 had a hidden file in a directory so I cd into the directory and cat .hidden to get the password "pIwrPrtPN36QITSp3EQaw936yaFoFgAB"
+
+Level 4 only had one readable file so I just cat all of the files and got the password from file07 "koReBOKuIDDepwhWk7jZC0RTdopnAYKh"
+
+Level 5 had a file sizes 1033 bytes so I did find . -size 1033c and the file location cam up I cat the file and got the password "DXjZPULLxYr17uwoI01bNLQbtFemEgo7"
+
+Level 6 I cd .. into the parent directory and searched for the file owned by bandit 7 and got the password "HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs"
+
+Level 7 I used the graphics millionth command to get the password "cvX2JJa4CFALtqS87jk27qwqGhBM9plV"
+
+Level 8 I used cat data.txt | sort | uniq -u to get the password "UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR"
+
+Level 9 I used a grep == command and got the password "truKLdjsbJ5g7yyJ2X2"
+
+Level 10 I used a cat command with a base 64 take and got the password "IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR"
+
+Level 11 I needed help so I searched up a cat command with flags and got the password "5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu"
